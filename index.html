@@ -5,7 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
-body {font-family: 'Balsamiq Sans', cursive;}
+body {font-family: 'Balsamiq Sans', cursive;
+ }
 .mySlides {width:200px}
 img {vertical-align: middle;}
 
@@ -14,7 +15,9 @@ img {vertical-align: middle;}
   position:relative;
   width:200px;
   margin:5px;
+  margin-top:-10px;
   float:left;
+  
 }
 
 /* Next & previous buttons */
@@ -39,12 +42,12 @@ img {vertical-align: middle;}
 
 /* Number text (1/3 etc) */
 .numbertext {
-background-color:#ffffff;
+
   color: #000000;
   font-size: 12px;
   padding: 1px 2px;
   left:5px;
-  
+  font-weight:bold;
   position: absolute;
   top: 1px;
 }
@@ -181,6 +184,7 @@ margin-left:5%;
   <h3><b>about</b></h3>
   <p>Hi, I'm Keith a second-year Computer Science and Mathematics student in Exeter, UK. Whose interests include <b>weather modelling, high performance computing and bioinformatics</b>.</p>
    <h3><b>projects</b></h3>
+   <h4><b>FindExeter - Student Orientation App</b></h4>
   <div class="slideshow-container-findexeter">
 
 <div class="mySlides fade">
@@ -189,47 +193,39 @@ margin-left:5%;
 <div class="bottom-left"><a class="prev" onclick="plusSlides(-1)"><</a></div>
 <div class="bottom-right"><a class="next" onclick="plusSlides(1)">></a></div>
 </div>
-
 <div class="mySlides fade">
   <div class="numbertext">2 / 7</div>
   <img src="findexeter2.jpg" style="width:200px">
 <div class="bottom-left"><a class="prev" onclick="plusSlides(-1)"><</a></div>
 <div class="bottom-right"><a class="next" onclick="plusSlides(1)">></a></div>
 </div>
-
 <div class="mySlides fade">
   <div class="numbertext">3 / 7</div>
   <img src="findexeter3.jpg" style="width:200px">
 <div class="bottom-left"><a class="prev" onclick="plusSlides(-1)"><</a></div>
 <div class="bottom-right"><a class="next" onclick="plusSlides(1)">></a></div>
-
 </div>
 <div class="mySlides fade">
   <div class="numbertext">4 / 7</div>
   <img src="findexeter4.jpg" style="width:200px">
 <div class="bottom-left"><a class="prev" onclick="plusSlides(-1)"><</a></div>
 <div class="bottom-right"><a class="next" onclick="plusSlides(1)">></a></div>
-
 </div>
 <div class="mySlides fade">
   <div class="numbertext">5 / 7</div>
   <img src="findexeter5.jpg" style="width:200px">
 <div class="bottom-left"><a class="prev" onclick="plusSlides(-1)"><</a></div>
 <div class="bottom-right"><a class="next" onclick="plusSlides(1)">></a></div>
-
 </div>
 <div class="mySlides fade">
   <div class="numbertext">6 / 7</div>
-  <img src="findexeter6.jpg" style="width:200px">;
+  <img src="findexeter6.jpg" style="width:200px">
 <div class="bottom-left"><a class="prev" onclick="plusSlides(-1)"><</a></div>
 <div class="bottom-right"><a class="next" onclick="plusSlides(1)">></a></div>
-
 </div>
 <div class="mySlides fade">
   <div class="numbertext">7 / 7</div>
   <img src="findexeter7.jpg" style="width:200px">
-
-
 <div class="bottom-left"><a class="prev" onclick="plusSlides(-1)"><</a></div>
 <div class="bottom-right"><a class="next" onclick="plusSlides(1)">></a></div>
 </div>
@@ -237,17 +233,9 @@ margin-left:5%;
 
 
 </div>
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ornare sollicitudin pharetra. Aliquam erat volutpat. Nam sollicitudin efficitur semper. Donec nunc mi, dapibus eu nisl sit amet, maximus semper urna. Phasellus eget quam a ligula luctus tristique sit amet nec lectus. Maecenas sagittis magna vel efficitur pharetra. Suspendisse posuere augue elit. Nam id eros eget risus cursus bibendum sed non urna. Aliquam placerat non leo nec efficitur. Donec placerat est nulla, bibendum gravida erat faucibus non. Maecenas vulputate dui nibh, ac sodales felis sagittis eu. Aenean aliquam vel purus a laoreet.
-
-Integer mattis, orci id viverra pulvinar, neque quam viverra urna, non consectetur dui elit quis nisl. Maecenas mi purus, aliquam vitae ex non, volutpat rutrum felis. In orci nisi, accumsan id nunc condimentum, dictum pretium nisi. Nunc vitae tellus lacus. Cras commodo ligula lobortis pretium rutrum. Sed elit velit, vestibulum sed ex ac, luctus pulvinar lacus. Cras et bibendum elit, eu volutpat ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-Morbi pharetra est sit amet commodo malesuada. Nunc non metus quis mi pulvinar interdum. Nunc dui mi, pretium sed suscipit ac, venenatis eu ante. Mauris convallis aliquam nisi, quis placerat neque lacinia eget. Duis eget nisl et velit luctus feugiat. In tincidunt mi efficitur, dignissim risus eu, pharetra ipsum. Donec gravida posuere sem vitae malesuada. Donec finibus lacus tellus, nec vestibulum dui tempus id. Ut quam arcu, egestas id nisi ac, finibus eleifend est.
-
-Sed imperdiet felis ac risus euismod mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel sapien vitae augue rhoncus porttitor eget vitae urna. Cras varius mauris ut vulputate finibus. Nunc diam quam, lobortis non condimentum id, scelerisque ut arcu. Donec maximus augue ac rutrum iaculis. Integer at nibh vestibulum, malesuada lectus vel, venenatis tortor.
-
-Proin congue tempus congue. Nullam efficitur rutrum dui, eu finibus massa malesuada at. Pellentesque lobortis tellus efficitur nibh laoreet, dictum consectetur felis gravida. Pellentesque condimentum leo est, a viverra lectus pharetra sed. Phasellus vehicula viverra quam, ut volutpat mauris rhoncus ac. Nam non vulputate neque. Duis vel mi bibendum, consequat lectus non, pulvinar lacus. Morbi ante magna, sodales quis nisl ut, bibendum mattis ex.</p>
-
-
+<p> </p>
+<p style = "clear: both;"></p>
+<h4 style = "clear: both;"><b>New Projects xxxxx</b></h4>
 </div>
 <div class="footer">
       
